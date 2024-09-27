@@ -6,7 +6,7 @@ import random
 
 def main():
     # Substitua pelo caminho correto
-    service = Service(r'C:/Users/kaiol/Downloads/chromedriver-win64/chromedriver.exe')
+    service = Service(r'C:/Users/..../chromedriver.exe')
 
     # Inicialize o WebDriver
     driver = webdriver.Chrome(service=service)
